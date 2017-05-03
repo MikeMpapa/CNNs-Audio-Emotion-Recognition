@@ -1,0 +1,24 @@
+base_lr: 0.001
+#input_size: 250
+stepsize: 600
+snapshot_prefix: "Movies_FinalTest_14_64batch_5000_augmented_c17c25_true7_c35c43"
+max_iter: 5000
+#init_type: None
+#batch_size: 64
+test_iter: 75
+#init: None
+#train: "EmotionFinalDataset/movies_specs/train/"
+snapshot: 10000
+gamma: 0.1
+solver_mode: GPU
+lr_policy: "step"
+#test: "EmotionFinalDataset/movies_specs/test/"
+test_interval: 500
+net: "Structures/Emotion_Gray_14.prototxt"
+weight_decay: 0.005
+type: "SGD"
+display: 250
+momentum: 0.9
+test_state: { stage: 'test-on-test' }
+test_initialization: false
+random_seed: 1701
