@@ -1,3 +1,5 @@
+### Publication
+
 @article{papakostas2017deep,
   title={Deep visual attributes vs. hand-crafted audio features on multidomain speech emotion recognition},
   author={Papakostas, Michalis and Spyrou, Evaggelos and Giannakopoulos, Theodoros and Siantikos, Giorgos and Sgouropoulos, Dimitrios and Mylonas, Phivos and Makedon, Fillia},
@@ -38,6 +40,7 @@ Dependencies:
 2) Open-CV and Python 2.7
 
 
+### Publication
 
 @article{papakostas2017deep,
   title={Deep visual attributes vs. hand-crafted audio features on multidomain speech emotion recognition},
