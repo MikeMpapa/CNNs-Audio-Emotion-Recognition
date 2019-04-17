@@ -1,3 +1,15 @@
+@article{papakostas2017deep,
+  title={Deep visual attributes vs. hand-crafted audio features on multidomain speech emotion recognition},
+  author={Papakostas, Michalis and Spyrou, Evaggelos and Giannakopoulos, Theodoros and Siantikos, Giorgos and Sgouropoulos, Dimitrios and Mylonas, Phivos and Makedon, Fillia},
+  journal={Computation},
+  volume={5},
+  number={2},
+  pages={26},
+  year={2017},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+
+
 # CNNs-AUDIO-EMOTION-RECOGNITION
 
 **Train**: 
@@ -20,8 +32,21 @@ Example:
 python ClassifyWavGrayCORRECT.py evaluate EmotionFinalDataset/savee_wavs_byspeaker/s4/test/ BySpeakerS4_iter_5000.caffemodel cnn 0 "" Emovo 250
 
 
-
 Dependencies:
 1) Caffe-Depp Learning library
 3) [PyAudioAnalysis Library](https://github.com/tyiannak/pyAudioAnalysis)
 2) Open-CV and Python 2.7
+
+
+
+@article{papakostas2017deep,
+  title={Deep visual attributes vs. hand-crafted audio features on multidomain speech emotion recognition},
+  author={Papakostas, Michalis and Spyrou, Evaggelos and Giannakopoulos, Theodoros and Siantikos, Giorgos and Sgouropoulos, Dimitrios and Mylonas, Phivos and Makedon, Fillia},
+  journal={Computation},
+  volume={5},
+  number={2},
+  pages={26},
+  year={2017},
+  publisher={Multidisciplinary Digital Publishing Institute}
+}
+
